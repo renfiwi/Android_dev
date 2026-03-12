@@ -1,0 +1,5 @@
+1. нет не будет. onPause() -> onStop() - при нажатии на кнопку Home
+onRestart() -> onStart() -> onResume() - при возврате в приложение
+onCreate() - вызывается исключительно при создании приложения
+2. да, будет. onStop() -> onResume()/onPostResume()
+3. да, будет. onPause() -> onStop() -> onDestroy(), потом создание заново.
