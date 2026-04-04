@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewDevBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/editTextUserBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название Вашей любимой книги"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextUserQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите цитату из Вашей любимой книги"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnSendResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить данные" />
+
+</LinearLayout>
