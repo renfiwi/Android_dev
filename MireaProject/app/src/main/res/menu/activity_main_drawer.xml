@@ -9,5 +9,10 @@
             android:id="@+id/nav_browser"
             android:icon="@android:drawable/ic_menu_search"
             android:title="Браузер" />
+
+        <item
+            android:id="@+id/nav_worker"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Напоминание" />
     </group>
 </menu>

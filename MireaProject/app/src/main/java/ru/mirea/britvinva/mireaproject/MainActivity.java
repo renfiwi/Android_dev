@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_home, R.id.nav_browser)
                 .setOpenableLayout(drawer)
                 .build();
+        mAppBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.nav_home, R.id.nav_browser, R.id.nav_worker)
+                .setOpenableLayout(drawer)
+                .build();
 
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);

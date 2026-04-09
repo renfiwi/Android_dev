@@ -9,7 +9,9 @@ android {
             minorApiLevel = 1
         }
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "ru.mirea.britvinva.mireaproject"
         minSdk = 24
@@ -36,6 +38,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.work:work-runtime:2.10.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
