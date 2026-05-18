@@ -30,11 +30,7 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = navHostFragment.getNavController();
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_browser)
-                .setOpenableLayout(drawer)
-                .build();
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_browser, R.id.nav_worker)
+                R.id.nav_home, R.id.nav_browser, R.id.nav_camera, R.id.nav_compass, R.id.nav_microphone)
                 .setOpenableLayout(drawer)
                 .build();
 

@@ -11,8 +11,17 @@
             android:title="Браузер" />
 
         <item
-            android:id="@+id/nav_worker"
-            android:icon="@android:drawable/ic_menu_recent_history"
-            android:title="Напоминание" />
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Фото урожая" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Компас агронома" />
+        <item
+            android:id="@+id/nav_microphone"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="Полевой дневник" />
+
     </group>
 </menu>

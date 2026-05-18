@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Компас Картофелевода"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Для максимального урожая грядки картофеля следует располагать строго с севера на юг. Направьте телефон, чтобы разметить поле."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="48dp"/>
+
+    <ImageView
+        android:id="@+id/imageCompass"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@android:drawable/ic_menu_compass"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textAzimuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Азимут: 0°"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"/>
+</LinearLayout>
